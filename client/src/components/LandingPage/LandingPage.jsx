@@ -24,25 +24,6 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="landing-page">
-            <div className="left-section">
-                
-            </div>
-            <div className="right-section">
-                <h1>10x Team</h1>
-                <div className='btn'>
-                    <button>
-                        <Link to='/PostView'
-                        style={{
-                            textDecoration:'none',
-                            color: '#006238'
-                        }}
-                        >Enter</Link>
-                    </button>
-                </div>
-            </div>
-        </div> */}
     </>
   );
 };
