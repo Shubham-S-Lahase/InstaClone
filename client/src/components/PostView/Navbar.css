@@ -2,9 +2,12 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 15px 200px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
     box-sizing: border-box;
-    border-bottom: 2px solid rgb(103, 152, 251);
+    border-bottom: 2px solid grey;
 }
 
 .icon-name {
