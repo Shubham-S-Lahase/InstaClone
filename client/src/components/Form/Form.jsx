@@ -73,7 +73,7 @@ function FormPage() {
     e.preventDefault();
 
     axios
-      .post("https://instaclone-second-backend.onrender.com/posts", data)
+      .post("http://localhost:7070/posts", data)
       .then((res) => {
         console.log("response :: ", res.data);
         navigate("/PostView");
