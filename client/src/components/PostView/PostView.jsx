@@ -10,7 +10,7 @@ function PostView() {
 
     function fetchData() {
         axios
-            .get('https://instaclone-second-backend.onrender.com/posts')
+            .get('http://localhost:7070/posts')
             .then((res) => {
                 const dataArr = res.data
                 dataArr.reverse()
